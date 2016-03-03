@@ -2,21 +2,30 @@
 
 Replication files for Martin, Slez, and Borkenhagen (2016)
 
+## Dependencies
+
+The following packages must be installed for this code to work properly:
+
+    * stringr
+    * spgwr
+    * ggplot2
+    * grid
+    * maptools
+    * rgdal
+    * plyr
+    * dplyr
+    * tidyr
+
 ## Contents
+    
+    * `msb_2016.Rdata` : Collection of data objects used for analysis. 
 
-`msb_2016.Rdata` 
+    * `functions.R` : Custom functions for performing analysis. Most of these functions are included in the [femaR](http://www.github.com/aslez/femaR) R package. 
 
-Collection of data objects used for analysis. 
+    * `msb_2016_clean.R` : Code for cleaning data in `msb_2016.RData`. Must be run before analysis.
 
-`functions.R`
+    * `msb_2016_analysis.R` : Code for recreating findings.
 
-Custom functions. 
+    * `README.md` : This file. You are reading it right now.
 
-`msb_2016_clean.R`
-
-Code for cleaning data in `msb_2016.RData`. Must be run before analysis.
-
-`msb_2016_analysis.R`
-
-Code for recreating findings.
 
