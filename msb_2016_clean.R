@@ -1,6 +1,4 @@
 #SETTINGS
-#set working directory to replication folder
-setwd("~/Projects/msb_socius_2016/")
 
 #LIBRARIES
 library(dplyr)
