@@ -8,7 +8,7 @@ Replication files for Martin, Slez, and Borkenhagen (2016)
 
 Collection of data objects used for analysis. 
 
-`functions.r`
+`functions.R`
 
 Custom functions. 
 
