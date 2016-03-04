@@ -9,7 +9,7 @@
 #   "rgdal", "plyr", "dplyr", "tidyr")
 # for (pkg in reqPkgs) {
 #   if ( !(pkg %in% installed.packages()[, 1]) ) {
-#     install.packages(pkg, type = "binary")
+#     install.packages(pkg)
 #   }
 # }
 
