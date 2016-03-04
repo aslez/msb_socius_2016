@@ -8,7 +8,7 @@
 # reqPkgs <- c("stringr", "spgwr", "ggplot2", "grid", "maptools", "rgeos",
 #   "rgdal", "plyr", "dplyr", "tidyr")
 # for (pkg in reqPkgs) {
-#   if ( (pkg %in% installed.packages()[, 1]) ) {
+#   if ( !(pkg %in% installed.packages()[, 1]) ) {
 #     install.packages(pkg, type = "binary")
 #   }
 # }
