@@ -11,6 +11,7 @@ The following packages must be installed for this code to work properly:
 * ggplot2
 * grid
 * maptools
+* rgeos
 * rgdal
 * plyr
 * dplyr
